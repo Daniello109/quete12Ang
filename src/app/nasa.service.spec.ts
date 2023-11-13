@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NasaService } from './nasa.service';
+import { NasaService } from './nasaService.service';
 
 describe('NasaServiceService', () => {
   let service: NasaService;

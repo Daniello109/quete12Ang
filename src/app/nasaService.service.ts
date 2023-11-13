@@ -1,15 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { ImageModel } from '../models/imageModel';
-
+import { ImageModel } from './models/imageModel';
 @Injectable({
   providedIn: 'root'
 })
 export class NasaService {
 
 
-  imageOfTheDay!:ImageModel;
+  imgOfTheDay!:ImageModel;
 
   constructor(private nasaImageRequest: HttpClient) { }
   

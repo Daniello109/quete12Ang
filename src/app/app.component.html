@@ -1,1 +1,2 @@
-<app-nasa></app-nasa>
+<p>title : {{title}}</p>
+<ng-container *ngIf="imgOfTheDay" ><img [src]="imgOfTheDay.url"></ng-container>
